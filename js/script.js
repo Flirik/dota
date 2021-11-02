@@ -1,0 +1,1 @@
+document.getElementById('picture').src = 'img/frog.png';
