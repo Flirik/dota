@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 - Alchemist</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/styleHero.css">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="bg page">
+        <div class="bgblack headerabsol container-fluid">
+            <header>
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="../heroes.html">Герои</a>
+                                    <a class="nav-link" href="../patches.html">Патчи</a>
+                                    <a class="nav-link" href="../builds.html">Билды</a>
+                                    <a class="nav-link" href="../training.html">Обучение</a>
+                                </div>
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="../calcV2.html">Калькулятор</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div class="container margin1">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row flex justify-content-between">
+                        <h1 class="text-center">Alchemist</h1>
+                        <div class="banner col-lg-5 col-12">
+                            
+                            <img class="figure-img img-fluid rounded" src="banner/alchemist.jpg" alt="alchemist">
+                        </div>
+                        <div class="information col-lg-7 col-12">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            О герое
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <strong>Alchemist</strong> персонаж ближнего боя, предназначенный для 1 или 2 позиции. Основная суть персонажа - быстро накопить на артефакты с помощью своей пассивной способности и начать доминировать на карте
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            Характеристики
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            <p>Alchemist - персонаж с основным атрибутом сила</p>
+                                            Прибавка к базовым характеристикам которые Alchemist получает за уровень:
+                                            <p><img src="../img/Attribute/Strength_attribute_symbol.png" alt="Strength_attribute_symbol">25 + 2.9</p>
+                                            <p><img src="../img/Attribute/Agility_attribute_symbol.png" alt="Agility_attribute_symbol">22 + 1.5</p>
+                                            <p><img src="../img/Attribute/Intelligence_attribute_symbol.png" alt="Intelligence_attribute_symbol">25 + 1.8</p>
+                                            <div class="flex-wrap">
+                                                <div class="col-sm-6 col-12">
+                                                    <p>Урон: 52-58</p>
+                                                    <p>Здоровье: 700</p>
+                                                    <p>Мана: 375</p>
+                                                    <p>Защита: 2.7</p>
+                                                    <p>скорость передвижения: 305</p>
+                                                    <p>Время атаки: 1.7</p>
+                                                </div>
+                                                <div class="col-sm-6 col-12">
+                                                    <p>Атак в секунду: 0.6</p>
+                                                    <p>Дальность обзора днём: 1800</p>
+                                                    <p>Дальность обзора ночью: 800</p>
+                                                    <p>Дальность атаки: 150</p>
+                                                    <p>Регенерация здоровья: 2.8</p>
+                                                    <p>Регенерация маны: 1.3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFirst" aria-expanded="false" aria-controls="panelsStayOpen-collapseFirst">
+                                           1-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFirst" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Acid_Spray_icon.png" alt="Acid_Spray">
+                                                </div>
+                                                <div class="rightScreen justify-content-center">
+                                                    <h3>Acid Spray</h3>
+                                                    <p>alchemist распыляет облако кислоты на выбранную область с радиусом 475/525/575/625 и длительностью 16 секунд. Наносит всем внутри данной способности урон 20/25/30/35 в секунду и снижает их защиту на 4/5/6/7 едениц</p>
+                                                    <p>Урон: физический</p>
+                                                    <p>Способность: направленная на область</p>
+                                                    <p>Сквозь невосприимчивость к магии: нет</p>
+                                                    <div class="flex-between">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">130/140/150/160</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">22</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSecond" aria-expanded="false" aria-controls="panelsStayOpen-collapseSecond">
+                                           2-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseSecond" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn">
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Unstable_Concoction_icon.png" alt="Unstable_Concoction">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Unstable Concoction</h3>
+                                                    <p>Alchemist начинает готовить взрывную колбу, которая подготавливает 5 секунд, но можно применить раньше. При попадании колба взовётся в радиусе 250, нанесёт урон до 150/220/290/360 и оглушит до 1,8/2,5/3,3/4,0 секунд. Если Alchemist не успеет выбросить колбу, то она взовётся у него в руках, нанеся ему урон и оглушит не только его, но и противников по близости</p>
+                                                    <p>Урон: физический</p>
+                                                    <p>Способность: ненаправленная/направленная на вражеского персонажа</p>
+                                                    <p>Можно развеять только сильным развеиванием</p>
+                                                    <p>Сквозь невосприимчивость к магии: нет</p>
+                                                    <p>Примечание: данной способностью можно не отдаться врагу</p>
+                                                    <div class="flex-between ">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">100</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">13</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThird" aria-expanded="false" aria-controls="panelsStayOpen-collapseThird">
+                                           3-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThird" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Greevil's_Greed_icon.png" alt="Greevil's_Greed">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Greevil's Greed</h3>
+                                                    <p>При добивании врага/вражеского существа/нейтрального существа Alchemist получает дополнительное золото, который вырастает до 15/18/21/24 и приумножает собранные руны богатства в 1.5/2.0/2.5/3.0 раза</p>
+                                                    <p class="margin-zero">Способность: пассивная</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseUlt" aria-expanded="false" aria-controls="panelsStayOpen-collapseUlt">
+                                           4-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseUlt" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Chemical_Rage_icon.png" alt="Chemical_Rage">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Chemical Rage</h3>
+                                                    <p>Alchemist под действием способности получает дополнительную скорость передвижения 40/50/60, регенерацию здоровья 50/75/100, дополнительный урон от заклинаний 5% и базовый интервал между атаками 1.2/1.1/1.0 на 25 секунд</p>
+                                                    <p>Способность: ненаправленная</p>
+                                                    <p>Нельзя развеять</p>
+                                                    <div class="flex-between margin-zero">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">50/75/100</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">55</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseShard" aria-expanded="false" aria-controls="panelsStayOpen-collapseShard">
+                                           Aghanim's Shard
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseShard" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Berserk_Potion_icon.png" alt="Berserk_Potion">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Berserk Potion</h3>
+                                                    <p>Бросает в союзника колбу, которая даёт +30 к скорости передвижения, +50 к скорости атаки и +40 к востановлению здоровья на 10 секунд</p>
+                                                    <p>Способность: направленная на союзное существо</p>
+                                                    <p>Сквозь невосприимчивость к магии: да</p>
+                                                    <p>Можно развеять</p>
+                                                    <div class="flex-between margin-zero">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">125</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">35</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseAghanim" aria-expanded="false" aria-controls="panelsStayOpen-collapseAghanim">
+                                           Aghanim's Scepter
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseAghanim" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Chemical_Rage_icon.png" alt="Chemical_Rage">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Chemical Rage</h3>
+                                                    <p>Позволяет Alchemist передать Aghanim's Scepter союзнику, а самому Alchemist дополнительно даруется 20 урона и 5% урон от заклинаний за заряд. Максимум зарядов: 4</p>
+                                                    <p class="margin-zero">Способность: направленная на союзного героя</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTreeTalanted" aria-expanded="false" aria-controls="panelsStayOpen-collapseTreeTalanted">
+                                           Древо талантов
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTreeTalanted" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/tree_talant.jpg" alt="tree_talant">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+50 к восстановлению от Chemical Rage</p>
+                                                        <div class="col-2 center"> 25 </div>
+                                                        <p class="col-5 center">+50 к скорости передвижения от Chemical Rage</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+400 к урону от Unstable Concoction</p>
+                                                        <div class="col-2 center"> 20 </div>
+                                                        <p class="col-5 center">+25% к прорубающему урону</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+20 к урону</p>
+                                                        <div class="col-2 center"> 15 </div>
+                                                        <p class="col-5 center">+350 к здоровью</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+125 к радиусу взрыва Unstable Concoction</p>
+                                                        <div class="col-2 center"> 10 </div>
+                                                        <p class="col-5 center">+15 к скорости атаки</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            Последние изменения
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            <strong>Abaddon</strong> персонаж с атрибутом сила, предназначен для the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgblack footerabsol container-fluid">
+            <footer>
+                <div class="container">
+                    <div class="flexbetween">
+                        <button id="about">ABOUT US ඞ</button>
+                        <button id="contact">CONTACT US</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="../js/bootstrap.min1.js"></script>
+    <!-- <script src="../js/script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 - Chaos Knight</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/styleHero.css">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="bg page">
+        <div class="bgblack headerabsol container-fluid">
+            <header>
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="../heroes.html">Герои</a>
+                                    <a class="nav-link" href="../patches.html">Патчи</a>
+                                    <a class="nav-link" href="../builds.html">Билды</a>
+                                    <a class="nav-link" href="../training.html">Обучение</a>
+                                </div>
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="../calcV2.html">Калькулятор</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div class="container margin1">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row flex justify-content-between">
+                        <h1 class="text-center">Chaos Knight</h1>
+                        <div class="banner col-lg-5 col-12">
+                            <img class="figure-img img-fluid rounded" src="banner/chaos_knight.jpg" alt="Chaos_Knight">
+                        </div>
+                        <div class="information col-lg-7 col-12">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            О герое
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <strong>Chaos Knight</strong> - персонаж ближнего боя, предназначенный для 3 позиции. Способный призывать кавалерию своих двойников, которые наносят солидный урон. Также персонаж очень зависит от удачи :)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            Характеристики
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            <p>Chaos Knight - персонаж с основным атрибутом сила</p>
+                                            Прибавка к базовым характеристикам которые Chaos Knight получает за уровень:
+                                            <p><img src="../img/Attribute/Strength_attribute_symbol.png" alt="Strength_attribute_symbol">22 + 3.2</p>
+                                            <p><img src="../img/Attribute/Agility_attribute_symbol.png" alt="Agility_attribute_symbol">18 + 1.4</p>
+                                            <p><img src="../img/Attribute/Intelligence_attribute_symbol.png" alt="Intelligence_attribute_symbol">18 + 1.2</p>
+                                            <div class="flex-wrap">
+                                                <div class="col-sm-6 col-12">
+                                                    <p>Урон: 51-81</p>
+                                                    <p>Здоровье: 640</p>
+                                                    <p>Мана: 291</p>
+                                                    <p>Защита: 5</p>
+                                                    <p>скорость передвижения: 325</p>
+                                                    <p>Время атаки: 1.7</p>
+                                                </div>
+                                                <div class="col-sm-6 col-12">
+                                                    <p>Атак в секунду: 0.6</p>
+                                                    <p>Дальность обзора днём: 1800</p>
+                                                    <p>Дальность обзора ночью: 800</p>
+                                                    <p>Дальность атаки: 150</p>
+                                                    <p>Регенерация здоровья: 2.5</p>
+                                                    <p>Регенерация маны: 0.9</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFirst" aria-expanded="false" aria-controls="panelsStayOpen-collapseFirst">
+                                           1-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFirst" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Chaos_Bolt_icon.png" alt="Chaos_Bolt">
+                                                </div>
+                                                <div class="rightScreen justify-content-center">
+                                                    <h3>Chaos Bolt</h3>
+                                                    <p>Chaos Knight выпускает снаряд в выбранного противника, который наносит случайный урон, в диапазоне от 90/110/130/150 до 180/220/260/300 и оглушает в диапазоне от 1,3/1,5/1,8/2 до 2,2/2,8/3,4/4 секунд</p>
+                                                    <p>Урон: магический</p>
+                                                    <p>Способность: направленная на вражеское существо</p>
+                                                    <p>Сквозь невосприимчивость к магии: нет</p>
+                                                    <p>Можно развеять только сильным развеиванием</p>
+                                                    <div class="flex-between">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">110/120/130/140</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">13/12/11/10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSecond" aria-expanded="false" aria-controls="panelsStayOpen-collapseSecond">
+                                           2-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseSecond" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn">
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Reality_Rift_icon.png" alt="Reality_Rift">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Reality Rift</h3>
+                                                    <p>Chaos Knight переносит героя, все его иллюзии и выбранного врага в точку между владельцем способности и жертвой. Уменьшает броню цели на 4/5/6/7 в течении 6 секунд. Дальность применения 550/600/650/700, дальность притягивания 250/300/350/400</p>
+                                                    <p>Урон: магический</p>
+                                                    <p>Способность: направленная на вражеское существо</p>
+                                                    <p>Сквозь невосприимчивость к магии: нет</p>
+                                                    <div class="flex-between ">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">50</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">18/14/10/6</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThird" aria-expanded="false" aria-controls="panelsStayOpen-collapseThird">
+                                           3-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThird" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Chaos_Strike_icon.png" alt="Chaos_Strike">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Chaos Strike</h3>
+                                                    <p>Chaos Knight имеет шанс совершить критическую атаку с 33.3% шансом от 120% до 140%/175%/210%/245% критического урона и восстановить себе 24%/36%/48%/60% здоровья на часть от нанесённого урона</p>
+                                                    <p>Способность: пассивная</p>
+                                                    <p class="margin-zero">Сквозь невосприимчивость к магии: да</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseUlt" aria-expanded="false" aria-controls="panelsStayOpen-collapseUlt">
+                                           4-я способность
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseUlt" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Phantasm_icon.png" alt="Phantasm">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Phantasm</h3>
+                                                    <p>Chaos Knight призывает 1/2/3 своих иллюзий, которые наносят 100% от урона владельца и получают 325% урона на 30 секунд</p>
+                                                    <p>Способность: ненаправленная</p>
+                                                    <div class="flex-between">
+                                                        <p class="margin-zero"><img src="../img/Ability/mana.png" alt="mana">75/175/250</p>
+                                                        <p class="margin-zero"><img src="../img/Ability/cooldown.png" alt="cooldown">75</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseShard" aria-expanded="false" aria-controls="panelsStayOpen-collapseShard">
+                                           Aghanim's Shard
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseShard" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Chaos_Bolt_icon.png" alt="Chaos_Bolt">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Chaos Bolt</h3>
+                                                    <p class="margin-zero">Снаряд создаёт копию от способности Phantasm, которая атакует цель 6 секунд. Увеличивает дальность применения на 300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseAghanim" aria-expanded="false" aria-controls="panelsStayOpen-collapseAghanim">
+                                           Aghanim's Scepter
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseAghanim" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/Phantasm_icon.png" alt="Stampede">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <h3>Stampede</h3>
+                                                    <p class="margin-zero">Chaos knight создаёт иллюзию каждого героя из своей команды, включая владельца</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTreeTalanted" aria-expanded="false" aria-controls="panelsStayOpen-collapseTreeTalanted">
+                                           Древо талантов
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTreeTalanted" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="margin-bottom flex-coloumn"> 
+                                                <div class="leftScreen vertical slash">
+                                                    <img src="../img/Ability/tree_talant.jpg" alt="tree_talant">
+                                                </div>
+                                                <div class="rightScreen">
+                                                    <div class="flex-between margin-bottom">
+                                                        <p class="col-5 center" >+10 сек. действия Phantasm</p>
+                                                        <div class="col-2 center"> 25 </div>
+                                                        <p class="col-5 center">+10% к шансу срабатывания Chaos Strike</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">Reality Rift проходит сквозь невоспр. к магии</p>
+                                                        <div class="col-2 center"> 20 </div>
+                                                        <p class="col-5 center">+0,5 сек. к мин./макс. длительности Chaos Bolt</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+12 к силе</p>
+                                                        <div class="col-2 center"> 15 </div>
+                                                        <p class="col-5 center">-3 сек. перезарядки Chaos Bolt</p>
+                                                    </div>
+                                                    <div class="flex margin-bottom">
+                                                        <p class="col-5 center">+200 к дальности притягивания у Reality Rift</p>
+                                                        <div class="col-2 center"> 10 </div>
+                                                        <p class="col-5 center">+20% к вампиризму от Chaos Strike</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            Последние изменения
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            <strong>Abaddon</strong> персонаж с атрибутом сила, предназначен для the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgblack footerabsol container-fluid">
+            <footer>
+                <div class="container">
+                    <div class="flexbetween">
+                        <button id="about">ABOUT US ඞ</button>
+                        <button id="contact">CONTACT US</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="../js/bootstrap.min1.js"></script>
+    <!-- <script src="../js/script.js"></script> -->
+</body>
+
+</html>
